@@ -40,7 +40,9 @@ drop table gat_members;
 drop table gat_plan;
 drop table gathering;
 drop table member;
+drop sequence BOARD_SEQ;
 drop sequence GATHERING_SEQ;
+drop sequence GATPLAN_SEQ;
 
 SELECT COUNT(*) FROM MEMBER WHERE MEM_ID='q123';
 
@@ -88,6 +90,7 @@ CREATE TABLE gat_chat (
 
 CREATE TABLE gat_members (
 	gathering_gat_id VARCHAR2(30) NOT NULL,
+	gathering_gat_title VARCHAR2(30) NOT NULL,
 	member_mem_id    VARCHAR2(20) NOT NULL,
 	member_mem_nname VARCHAR2(20) NOT NULL
 );
