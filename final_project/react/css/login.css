@@ -1,0 +1,124 @@
+.lg_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  margin-top: 50px;
+  margin-bottom: 180px;
+}
+
+.real-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 850px;
+  height: 550px;
+  border-radius: 15px;
+  box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.25);
+}
+
+.left-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 0 0 15px;
+  
+}
+
+.forgot-pw {
+  font-family: 'UhBeeSe_hyun';
+}
+
+.right-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.find-pw {
+  font-family: 'UhBeeSe_hyun';
+  display: none;
+  width: 300px;
+}
+
+.go-login {
+  font-family: 'UhBeeSe_hyun';
+  display: none;
+}
+
+.login-view {
+  font-family: 'UhBeeSe_hyun';
+  width: 300px;
+}
+
+.btn1 {
+  background-color: blanchedalmond;
+  /* background-image: linear-gradient(90deg, var(--blue) 0%, var(--lightblue) 74%); */
+  border-radius: 20px;
+  border: 1px solid blanchedalmond;
+  color: black;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  padding:0.9rem 4rem;
+  margin-top: 10px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  font-family: 'UhBeeSe_hyun';
+  text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+}
+
+.btn1:hover{
+  transform: scale(1.1);
+}
+
+.btn2 {
+  background-color: blanchedalmond;
+  /* background-image: linear-gradient(90deg, var(--blue) 0%, var(--lightblue) 74%); */
+  border-radius: 20px;
+  border: 1px solid blanchedalmond;
+  color: black;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  padding:0.9rem 4rem;
+  margin-top: 10px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  font-family: 'UhBeeSe_hyun';
+  text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+}
+
+.btn2:hover{
+  transform: scale(1.1);
+}
+
+.input {
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #999;
+  border-radius: 10px;
+  padding: 0.8rem 0.8rem;
+  width: 85%;
+  margin: 0.5rem 0;
+  /* cursor: none; */
+}
+
+.go-sign-up a {
+  text-decoration: none;
+  color: pink;
+}
+
+.change-pw{
+  font-family: 'UhBeeSe_hyun';
+  display: none;
+  width: 300px;
+}

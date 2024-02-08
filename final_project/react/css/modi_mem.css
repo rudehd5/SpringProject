@@ -1,0 +1,105 @@
+.md_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 220px;
+}
+
+.md_check_menu, .md_change_pw, .md_change_email, .md_change_nname, .md_change_addr, .md_change_num {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 500px;
+    border-radius: 15px;
+    align-items: center;
+    background-color: pink;
+    box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.25);
+}
+
+.md_change_pw, .md_change_email, .md_change_nname, .md_change_addr, .md_change_num {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.md_col_box {
+    margin: 20px;
+}
+
+.md_col_box span {
+    display: inline-block;
+    width: 200px;
+}
+
+.md_col_box input {
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    background: rgb(241, 232, 215);
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.md_bts button {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    background: rgb(241, 232, 215);
+    border: none;
+    border-radius: 15px;
+}
+
+.md_bts button:hover {
+    transform: scale(1.1);
+}
+
+.md_ch_bt {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(241, 232, 215);
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.md_ch_bt:hover {
+    transform: scale(1.1);
+}
+
+.md_addr_api {
+    background-color: rgb(241, 232, 215);
+    border: none;
+    margin-top: 10px;
+    border-radius: 15px;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+}
+
+.md_addr_api:hover {
+    scale: 1.1;
+}
+
+.daumAPI {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.daumAPI_bt {
+    background-color: rgb(241, 232, 215);
+    border: none;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+}

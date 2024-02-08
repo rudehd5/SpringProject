@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="04429A2C-D7B9-C5BC-D9DD-EE098977B5F3" containerWithKeyObject="C2A69FAF-A57B-EF77-6BBD-B2D7115520FE" localFKIndex="DB4A9ECC-F4D1-A915-4F8A-AC45AA1F3DD2" name="GAT_CHAT_MEMBER_FK">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-06 07:04:32 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<referredTableLongName>MEMBER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C4EDDFBC-63D0-2635-C7FE-8BCBDA830C9F</referredTableID>
+<keyObject>F07BDC44-5984-A1BA-E9DA-24BE69C2774F</keyObject>
+<referredKeyID>F07BDC44-5984-A1BA-E9DA-24BE69C2774F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MEM_ID,MEM_NNAME</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

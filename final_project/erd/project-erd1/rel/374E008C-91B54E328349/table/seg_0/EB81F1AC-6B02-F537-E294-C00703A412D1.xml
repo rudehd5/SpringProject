@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB81F1AC-6B02-F537-E294-C00703A412D1" name="DOG">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 06:06:11 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DOG_ID" id="8FB62AE4-D897-32AB-FE3B-938157EC8303">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:27:22 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMBER_MEM_ID" id="9F4B61F8-94C8-C118-37A0-4FB981173E8B">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 08:33:44 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="118820D9-DB8C-465D-2B2D-26B3BE2853C3" referredColumn="2BCD05FF-C387-D084-A47C-FB55945E3A9E"/>
+</associations>
+</Column>
+<Column name="MEMBER_MEM_NNAME" id="D76A692B-BB09-CB59-4573-D364E904FF72">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 08:33:44 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="118820D9-DB8C-465D-2B2D-26B3BE2853C3" referredColumn="067AAAA3-6050-DE7B-7D16-D843A76D46C6"/>
+</associations>
+</Column>
+<Column name="DOG_NAME" id="19414262-21D6-2B6D-855F-AA481B253A68">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:04:46 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOG_AGE" id="0B115835-D10D-64A8-35EB-5A5322153A17">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:05:06 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOG_KIND" id="AFDDE9AE-3E2A-A105-F431-6C1CA2EA430D">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 06:07:04 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOG_BIR" id="9172A8C6-021C-AEE8-788B-62A29BCE72B8">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-31 02:53:16 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOG_GENDER" id="549DB8F9-780C-F0B1-9A26-1B8834CFC478">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-31 02:49:12 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOG_FILE_NAME1" id="6E23F281-6AB0-CA1C-1B34-5B48A354B1BF">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:05:30 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOG_FILE_NAME2" id="3FD0C7C6-B434-3CC5-579B-C2C979FFF3EE">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:07:20 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOG_FILE_EXT" id="64925E9E-1FEC-627C-885F-94AB313FB5B3">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-01 05:22:33 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOG_FILE_BYTE" id="A030F5CD-A859-80FF-B5DE-614458BE5A23">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:07:52 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D98F936-D5B4-EE25-03B6-3217CFE1E04B" name="DOG_PK">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:27:29 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FB62AE4-D897-32AB-FE3B-938157EC8303"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AF1866B-F069-8F4B-70A6-0671726EFE84" name="DOG_MEMBER_FK">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 08:33:44 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F4B61F8-94C8-C118-37A0-4FB981173E8B"/>
+<colUsage columnID="D76A692B-BB09-CB59-4573-D364E904FF72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

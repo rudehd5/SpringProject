@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4EDDFBC-63D0-2635-C7FE-8BCBDA830C9F" name="MEMBER">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:32:50 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MEM_ID" id="2BCD05FF-C387-D084-A47C-FB55945E3A9E">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:33:19 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_PW" id="7D844097-C250-34EC-0140-9608AD4C79E5">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:33:32 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_NAME" id="2CD69A57-02D6-4E23-9F40-E1DBC9EF142F">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:33:42 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_NNAME" id="067AAAA3-6050-DE7B-7D16-D843A76D46C6">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:34:58 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_EMAIL" id="7F040195-C4BD-A5D8-B1F7-56125C946ADC">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:33:59 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_ADDR1" id="AA80C045-A126-EFDC-23DF-3519C659568A">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:34:14 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_ADDR2" id="A3CF3F50-3CBA-A85F-D1A1-34906ED2C7F9">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:34:22 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_NUM" id="5CDEC674-4E3F-58B3-8993-B5D8D5191063">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:34:33 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_BIR" id="4526CBC0-7158-27EC-4AE5-D17FD6BF9E80">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:34:45 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_GENDER" id="1B4104B9-AE0C-5783-5F23-5F183F2287DF">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-31 02:49:40 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_GAT1_ID" id="E4C54DD1-54DD-7A92-6379-95771001F2AE">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 13:07:32 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_GAT2_ID" id="A06803E4-E134-C07D-8620-F1ECD6EB4884">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 13:07:42 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_GAT3_ID" id="B9B0E63B-F655-F9C6-ADDE-00F07D9A1691">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 13:07:52 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F07BDC44-5984-A1BA-E9DA-24BE69C2774F" name="MEMBER_PK">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:33:19 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BCD05FF-C387-D084-A47C-FB55945E3A9E"/>
+<colUsage columnID="067AAAA3-6050-DE7B-7D16-D843A76D46C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

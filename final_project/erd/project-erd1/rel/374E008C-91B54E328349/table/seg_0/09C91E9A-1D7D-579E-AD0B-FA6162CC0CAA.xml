@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09C91E9A-1D7D-579E-AD0B-FA6162CC0CAA" name="GAT_PLAN">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:19:14 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GAT_PLAN_ID" id="CD647AA6-19AF-9568-6387-6E14AEF0F142">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:20:16 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAT_PLAN_LEADER" id="18691060-B7A0-A928-BB38-72DE0AAF806B">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:19:50 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GATHERING_GAT_ID" id="B00D2A60-E9DD-C2A2-C418-43B3EE2FD1A9">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 13:37:23 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D725FA6-AF28-FE24-532D-A35A394DEAE9" referredColumn="3515EF0C-CBEF-7CA7-076D-F7249D9E2A3F"/>
+</associations>
+</Column>
+<Column name="GAT_PLAN_DATE" id="4C790362-FD60-0C18-CA66-85AE834190A5">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:20:41 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAT_PLAN_ADDR" id="37F1BBC6-397B-EF36-1093-3709B7E13F41">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:21:06 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAT_PLAN_TITLE" id="F034DA9E-B2BE-1D99-715C-DABE636939D2">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:21:29 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAT_PLAN_DESC" id="0AE5FEC0-3BDE-79B4-B4C1-F1E3BB4D536B">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:21:47 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95069B03-B8E1-D4F1-8295-74FE7127818C" name="GAT_PLAN_PK">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:20:20 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD647AA6-19AF-9568-6387-6E14AEF0F142"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59BA249D-9033-6E0F-70F2-014DCF4F2EA4" name="GAT_PLAN_GATHERING_FK">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 13:37:23 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B00D2A60-E9DD-C2A2-C418-43B3EE2FD1A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

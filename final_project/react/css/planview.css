@@ -1,0 +1,63 @@
+.pv_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+
+}
+.gptable{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  background-color: rgb(252, 158, 174);
+  border-radius: 15px;
+}
+.gpaddr{
+  background-color: beige;
+  width: 700px;
+  height: 60px;
+}
+.gpleader{
+  background-color: beige;
+  height: 50px;
+  border-right:dotted 5px pink;
+}
+.gpdate{
+  background-color: beige;
+  height: 80px;
+}
+.gptitle{
+  background-color: beige;
+  height: 80px;
+}
+.gpdesc{
+  background-color: beige;
+  height: 300px;
+}
+.gpplan2{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.gpfull{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: lightpink;
+  width: 800px;
+}
+.gpmove {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.gpmove div {
+  cursor: pointer;
+  color: black;
+  margin-right: 20px;
+}

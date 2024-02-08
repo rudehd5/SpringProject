@@ -1,0 +1,62 @@
+/* App.css */
+
+.pw_container {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #f0a7b3; /* 분홍색 테두리 */
+  border-radius: 8px;
+  background-color: #fff6f8; /* 연한 분홍색 배경 */
+}
+
+.pw_h1 {
+  text-align: center;
+  color: #ff69b4; /* 분홍색 헤더 */
+  margin-bottom: 20px;
+}
+
+.pw_label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ff69b4; /* 분홍색 라벨 텍스트 */
+}
+
+.pw_input_date,
+.pw_input_text,
+.pw_input_textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #f0a7b3; /* 분홍색 테두리 */
+  border-radius: 4px;
+}
+
+.pw_address_btn {
+  background-color: #f0a7b3;
+  border: none;
+  border-radius: 15px;
+  width: 130px;
+  height: 30px;
+  color: #fff6f8;
+}
+
+.pw_input_textarea {
+  height: 100px;
+}
+
+.pw_bt {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff69b4; /* 분홍색 버튼 배경 */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.pw_bt:hover {
+  background-color: #ff4b99; /* 더 진한 분홍색으로 호버 시 변경 */
+}

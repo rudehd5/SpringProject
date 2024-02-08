@@ -1,0 +1,50 @@
+.co_container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.vm_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: pink;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 180px;
+    width: 600px;
+    height: 650px;
+    border-radius: 15px;
+    box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.25);
+}
+
+.dt_box {
+    height: 90px;
+    padding-top: 30px;
+}
+
+.dt_name {
+    display: inline-block;
+    width: 100px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.db_data {
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: black;
+    background-color: rgb(241, 232, 215);
+    border-radius: 15px;
+}
+
+.vm_homeLink, .vm_modiMemLink {
+    cursor: pointer;
+}
+.vm_homeLink:hover, .vm_modiMemLink:hover {
+    color: rgba(0, 0, 0, 0.5);
+}

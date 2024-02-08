@@ -1,0 +1,168 @@
+.vd_con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.vd_container {
+    background-color: pink;
+    display: flex;
+    width: 800px;
+    height: 700px;
+    margin-bottom: 150px;
+    border-radius: 15px;
+}
+
+.vd_viewMyDogs {
+    padding: 10px;
+    width: 100%;
+}
+
+.vd_addBtArea {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 10px;
+}
+
+.vd_addBt {
+    background-color: rgb(241, 232, 215);
+    border: none;
+    width: 70px;
+    height: 40px;
+    border-radius: 15px;
+}
+.vd_addBt:hover{
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.vd_dogCon {
+    display: flex;
+    background-color: rgb(252, 220, 225);
+    height: 150px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.vd_dogCon_img {
+    display: inline-block;
+    height: 100%;
+    width: 150px;
+    margin-right: 20px;
+}
+
+.vd_dogCon_img img {
+    height: 100%;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.vd_dogCon_desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vd_delbt_area {
+    margin-left: auto;
+}
+
+.vd_delete_bt {
+    background-color: rgb(241, 232, 215);
+    border: none;
+    width: 70px;
+    height: 40px;
+    border-radius: 15px;
+}
+.vd_delete_bt:hover{
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.vd_viewAddDog {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#vd_add_title {
+    background-color: rgb(241, 232, 215);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.vd_input_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#vd_add_photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#vd_add_photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.vd_add_inputT {
+    width: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.vd_add_input {
+    background-color: rgb(241, 232, 215);
+    border: none;
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#vd_add_input {
+    display: none;
+}
+
+.vd_make_bt {
+    font-weight: bold;
+    font-size: 13px;
+    color: #0095f6;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.vd_bt_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vd_make_bt2 {
+    background-color: rgb(241, 232, 215);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    margin: 10px;
+}
+.vd_make_bt2:hover{
+    color: rgb(0, 0, 0, 0.5);
+}

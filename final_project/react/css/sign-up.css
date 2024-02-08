@@ -1,0 +1,276 @@
+/* body {
+    align-items: center;
+    background-color: #FFF8ED ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    place-items: center;
+    position: relative;
+  } */
+  .container_signup {
+    display: block;
+}
+.join_table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* padding: 7px 15px; */
+    /* margin-bottom: 10px; */
+    /* text-align: center; */
+    height: 900px;
+    /* line-height: 50px; */
+    width: 600px;
+    /* min-width: 100px; */
+    /* left: 34%;
+    top: 0%; */
+    /* left: 648px; */
+    /* top: 0px; */
+    /* padding: 7px 15px; */
+    border-radius: 15px;
+    /* background-color: rgba(234, 191, 195); */
+    background-color: rgba(255, 192, 203);
+    /* visibility: hidden; */
+    box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.25),
+    0 0.7rem 0.7rem rgba(0, 0, 0, 0.22);
+    border: none;
+    margin-bottom: 50px;
+}
+.background2{
+    display: inline-block;
+    width: 400px;
+    /* position: absolute; */
+    background: center no-repeat;
+    /* background: url("/public/img/login.png") center center no-repeat; */
+    background-size: cover;
+    margin-top: 45px;
+    /* height: 100vh; */
+    /* left: 25.8%;
+    top: 20%; */
+    /* left: 155px;
+    top: 142px; */
+    /* left: 155px;
+    top: 120px; */
+    /* padding-top: 250px; */
+    /* visibility: hidden; */
+    
+}
+.join_header{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 70px;
+    line-height: 50px;
+    width: 200px;
+    min-width: 100px;
+    border-radius: 15px;
+    background-color: rgba( 255, 255, 255, 0.5 );
+}
+.joinText{
+    white-space: nowrap;
+    margin-top: -50px;
+    padding: 10px;
+    opacity: 1;
+    font-size: calc(20px + 1vw);
+    border-radius: 10px;
+    /* background-color: rgba(234, 191, 195, 0.5); */
+    color: var(--white);
+    /* text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black; */
+}
+.join_id{
+    /* display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 70px;
+    line-height: 50px;
+    width: 15vw;
+    min-width: 100px;
+    border-radius: 15px;
+    background-color: rgba( 255, 255, 255); */
+}
+#memberId{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 30px;
+    /* line-height: 50px; */
+    /* width: 15vw; */
+    /* min-width: 100px; */
+    border-radius: 15px;
+    background-color: rgba( 255, 255, 255);
+    border: none;
+    font-size: 13px;
+}
+.join_pw{
+    /* display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 70px;
+    line-height: 50px;
+    width: 15vw;
+    min-width: 100px;
+    border-radius: 15px;
+    background-color: rgba( 255, 255, 255); */
+}
+#memberPw{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 30px;
+    /* line-height: 50px; */
+    /* width: 15vw; */
+    /* min-width: 100px; */
+    border-radius: 15px;
+    background-color: rgba( 255, 255, 255);
+    border: none;
+    font-size: 13px;
+}
+.join_pw_ok{
+    /* display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 70px;
+    line-height: 50px;
+    width: 15vw;
+    min-width: 100px;
+    border-radius: 15px;
+    background-color: rgba( 255, 255, 255); */
+}
+#memberPwOk{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 30px;
+    /* line-height: 50px; */
+    /* width: 15vw; */
+    /* min-width: 100px; */
+    border-radius: 15px;
+    background-color: rgba( 255, 255, 255);
+    border: none;
+    font-size: 13px;
+}
+#memberEmail{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 30px;
+    /* line-height: 50px; */
+    /* width: 15vw; */
+    /* min-width: 100px; */
+    border-radius: 15px;
+    background-color: rgba( 255, 255, 255);
+    border: none;
+    font-size: 13px;
+}
+#memberName{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 30px;
+    /* line-height: 50px; */
+    /* width: 15vw; */
+    /* min-width: 100px; */
+    border-radius: 15px;
+    background-color: rgba( 255, 255, 255);
+    border: none;
+    font-size: 13px;
+}
+.birthDay{
+    font-size: 15px;
+}
+.gender{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.join_text{
+    /* display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 30px;
+    line-height: 50px;
+    width: 15vw;
+    min-width: 100px;
+    background-color: rgba( 255, 255, 255); */
+}
+#memberAdr1{
+    font-size: 13px;
+}
+#memberJoin{
+    /* display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 30px;
+    width: 15vw; */
+    /* line-height: 50px; */
+    /* min-width: 100px; */
+    border-radius: 15px;
+    background-color: rgba( 255, 255, 255);
+}
+.address_btn{
+    background-color: rgba( 255, 255, 255, 0.5);
+    border-color: white;
+    color: rgba(0, 0, 0);
+    
+    height: 30px;
+    border-radius: 15px;
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+#memberAdr2{
+    font-size: 13px;
+}
+#memberAdr3{
+    font-size: 13px;
+    margin-top: -15px;
+}
+.btn_start{
+    margin-top: 10px;
+}
+.Join_btn{
+    display: block;
+    /* margin: 0 auto; */
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    text-align: center;
+    /* height: 70px;
+    line-height: 50px;
+    width: 15vw;
+    min-width: 100px; */
+    border-radius: 15px;
+    background-color: rgba( 255, 255, 255);
+    /* background-color: blanchedalmond; */
+    color: var(--white);
+    /* text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black; */
+}
+
+.daumAPI {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.daumAPI_bt {
+    background-color: rgb(241, 232, 215);
+    border: none;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+}

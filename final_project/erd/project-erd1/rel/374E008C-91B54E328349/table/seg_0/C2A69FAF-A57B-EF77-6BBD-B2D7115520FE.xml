@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2A69FAF-A57B-EF77-6BBD-B2D7115520FE" name="GAT_CHAT">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-06 07:00:34 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GATHERING_GAT_ID" id="948BC3E7-A18B-8A96-FF97-0C6E9F5B06E0">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-06 07:04:26 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18C21AC6-94FA-FF7B-7EF7-A2D3FDE7D0BE" referredColumn="3515EF0C-CBEF-7CA7-076D-F7249D9E2A3F"/>
+</associations>
+</Column>
+<Column name="MEMBER_MEM_ID" id="1C420C89-4EDD-2347-DB07-897CB3B40DDE">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-06 07:04:32 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04429A2C-D7B9-C5BC-D9DD-EE098977B5F3" referredColumn="2BCD05FF-C387-D084-A47C-FB55945E3A9E"/>
+</associations>
+</Column>
+<Column name="MEMBER_MEM_NNAME" id="2D728324-7179-282C-2C40-A2DD7EC3B436">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-06 07:04:32 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04429A2C-D7B9-C5BC-D9DD-EE098977B5F3" referredColumn="067AAAA3-6050-DE7B-7D16-D843A76D46C6"/>
+</associations>
+</Column>
+<Column name="GAT_CHAT_DESC" id="4290AE05-A811-0060-65ED-388BD8D9CEBC">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-06 07:06:00 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAT_CHAT_DATE" id="646D4E20-2C6A-2360-7D3C-8D2F58622442">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-06 07:06:32 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4E73202-5503-D7D3-EBA2-E40A2A0CEB9A" name="GAT_CHAT_GATHERING_FK">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-06 07:04:26 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="948BC3E7-A18B-8A96-FF97-0C6E9F5B06E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB4A9ECC-F4D1-A915-4F8A-AC45AA1F3DD2" name="GAT_CHAT_MEMBER_FK">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-06 07:04:32 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C420C89-4EDD-2347-DB07-897CB3B40DDE"/>
+<colUsage columnID="2D728324-7179-282C-2C40-A2DD7EC3B436"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

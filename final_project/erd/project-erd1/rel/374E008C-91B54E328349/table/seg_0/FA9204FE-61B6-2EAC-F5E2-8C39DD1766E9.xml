@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA9204FE-61B6-2EAC-F5E2-8C39DD1766E9" name="GAT_MEMBERS">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-06 07:02:11 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GATHERING_GAT_ID" id="9F935BDC-82E9-C3D7-2042-1A089ECAC1D7">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-06 07:02:31 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52E02351-37D2-E9A1-7986-951092C83D49" referredColumn="3515EF0C-CBEF-7CA7-076D-F7249D9E2A3F"/>
+</associations>
+</Column>
+<Column name="MEMBER_MEM_ID" id="DF1891EF-259C-84A6-DEDA-2F3FC1AD4B99">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-06 07:03:10 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3C85EC7-3D00-F9BB-C440-9236F25CD25F" referredColumn="2BCD05FF-C387-D084-A47C-FB55945E3A9E"/>
+</associations>
+</Column>
+<Column name="MEMBER_MEM_NNAME" id="E6759428-234A-5CF6-D93F-A50E1C3C05FF">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-06 07:03:10 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3C85EC7-3D00-F9BB-C440-9236F25CD25F" referredColumn="067AAAA3-6050-DE7B-7D16-D843A76D46C6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BC28D20-0F24-9638-9C1C-1EAA81A9C4DF" name="GAT_MEMBERS_GATHERING_FK">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-06 07:02:31 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F935BDC-82E9-C3D7-2042-1A089ECAC1D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18F61892-680E-BCAE-C861-A8AD1BA0E3B1" name="GAT_MEMBERS_MEMBER_FK">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-06 07:03:10 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF1891EF-259C-84A6-DEDA-2F3FC1AD4B99"/>
+<colUsage columnID="E6759428-234A-5CF6-D93F-A50E1C3C05FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

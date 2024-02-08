@@ -1,0 +1,202 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2032E5F0-EF47-949B-72C2-D38617A010F3" name="GATHERING">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:09:32 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GAT_ID" id="3515EF0C-CBEF-7CA7-076D-F7249D9E2A3F">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:12:33 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMBER_MEM_ID" id="80FF61C2-2848-F2E4-2629-D8AEEACA34AB">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 13:36:10 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C68D57F-751E-9D29-538B-D16E8602AF73" referredColumn="2BCD05FF-C387-D084-A47C-FB55945E3A9E"/>
+</associations>
+</Column>
+<Column name="MEMBER_MEM_NNAME" id="A45BAABE-3BA7-04B1-039A-6DC961115630">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 13:36:10 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C68D57F-751E-9D29-538B-D16E8602AF73" referredColumn="067AAAA3-6050-DE7B-7D16-D843A76D46C6"/>
+</associations>
+</Column>
+<Column name="GAT_TITLE" id="3BC5647C-4BCF-F334-6FA6-E4F7EC6B597B">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:13:38 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAT_DESC" id="753FA730-359F-DFA2-B935-65D26F8ECC95">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:14:15 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAT_DATE" id="162DDA18-9777-B1EA-6B7E-01A67C035A88">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:14:41 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAT_VIEW" id="4B176385-E9CA-5833-4947-645548B13DB1">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:14:57 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAT_MEMNUM" id="F0DD2ED3-B163-08F3-8834-53DA91D1D691">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-02 01:20:14 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAT_LOCATION1" id="A65D7AA3-8EFD-16A7-49A3-B970707DD302">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-05 02:13:01 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAT_LOCATION2" id="E985AEAD-4E02-3A85-14CE-8D3EBBEC6BE0">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-05 02:13:08 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAT_IMG_NAME1" id="FA24A459-9ED7-2FB6-948D-319D57F85E6F">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:13:01 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAT_IMG_NAME2" id="88A13988-B1B1-1E31-5453-CA99F03A2530">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:13:14 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAT_IMG_EXT" id="DAD37958-0EBF-EC13-CB25-4750CBBE169E">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-02-02 00:50:49 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAT_IMG_BYTE" id="F2EF2B3A-783E-DB80-285E-8140306E98EC">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:26:46 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D56E4880-1875-B545-1722-585A5FCDE6AB" name="GATHERING_PK">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 07:12:17 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3515EF0C-CBEF-7CA7-076D-F7249D9E2A3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F750A0A6-6C6A-45B1-9DFF-987D982464D5" name="GATHERING_MEMBER_FK">
+<createdBy>qkrwl</createdBy>
+<createdTime>2024-01-26 13:36:10 UTC</createdTime>
+<ownerDesignName>project-erd1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80FF61C2-2848-F2E4-2629-D8AEEACA34AB"/>
+<colUsage columnID="A45BAABE-3BA7-04B1-039A-6DC961115630"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

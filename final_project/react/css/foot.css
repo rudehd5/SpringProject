@@ -1,0 +1,22 @@
+.footer {
+    height: 100px;
+    margin-top: auto;
+    background-color: pink;
+    color: black;
+    text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon p{
+    margin-left: -100px;
+}
+
+/* 콘텐츠 스타일 수정 */
+.contents {
+    text-align: center; /* 텍스트 중앙 정렬 */
+    font-size: 18px; /* 폰트 크기 조정 */
+    white-space: pre-wrap;
+}
