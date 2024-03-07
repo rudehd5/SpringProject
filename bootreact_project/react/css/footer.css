@@ -1,0 +1,86 @@
+.footer {
+    height: 160px;
+}
+
+.footer .f_logo {
+    margin-right: 5rem;
+}
+
+.footer img {
+    height: 80px;
+    margin-top: 50px;
+}
+
+.footer div {
+    float: left;
+    color: #545454;
+    font-size: 0.75rem;
+}
+
+.footer .f_menu {
+    margin-top: 10px;
+    width: 70%;
+}
+
+.footer .f_menu a {
+    color: #545454;
+    display: inline-block;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    padding: 0 30px;
+}
+
+.footer .f_made {
+    width: 70%;
+}
+
+.footer .f_made span {
+    display: inline;
+    padding: 0 20px;
+}
+
+.footer .f_made span:first-child {
+    margin-left: 10px;
+}
+
+.footer .f_sns {
+    float: right;
+}
+
+.footer .f_copy {
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.footer i {
+    font-size: 30px;
+    margin-right: 32px;
+    color: rgb(252, 128, 89);
+}
+
+.footer i:last-child {
+    margin-right: 0;
+}
+
+.sns{
+    transform: scale(3); /* 2배 확대 */
+    margin-right: 50px;
+}
+#sns1{
+    /*border-radius: 20%;*/
+    color: rgb(255, 200, 146);
+    &:hover{
+        /*color: rgb(255, 0, 212, 0.3);*/
+        background: linear-gradient(to right, #833AB4, #E1306C);
+
+        /* 아이콘 투명도 조절 */
+        color: rgba(255, 255, 255, 1);
+    }
+}
+#sns2{
+    color: rgb(255, 42, 42, 0.5);
+    &:hover{
+        color: rgb(255, 0, 0);
+    }
+}

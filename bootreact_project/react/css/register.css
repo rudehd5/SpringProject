@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'UhBeeSe_hyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeSe_hyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    /*cursor: none !important;*/
+}
+body {
+    align-items: center;
+    /*!important 우선순위를 강제로 지정하는 키워드, 다른 모든 스타일 규칙보다 우선하여 적용*/
+    font-size: 1em !important;
+    background-color: #FFF8ED !important;
+    font-family: 'UhBeeSe_hyun' !important;
+
+    /*cursor: none;*/
+}
+a{
+    text-decoration: none !important;
+}
+.register {
+    box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.25),
+    0 0.7rem 0.7rem rgba(0, 0, 0, 0.22);
+    overflow: hidden;
+    background-color: rgba(234, 191, 195);
+    border-radius: 10px;
+    position: relative;
+    /*top: 0px;*/
+    /*height: 820px;*/
+    /*width: 1440px;*/
+    width: 1300px;
+}
+
+
+.register_logo{
+    margin-top: 30px;
+    margin-left: 800px;
+}
+
+legend{
+    text-align: center;
+}
+legend>p{
+    position: absolute;
+    left: 16%;
+    top: 15%;
+
+
+}
+.extraAddress {
+    display: none;
+}
+
+.accordion {
+    width: 60%;
+    font-family: Georgia;
+    text-align: center;
+    font-size: 0.9em;
+}
+.accordion-button:not(.collapsed) {
+    color: #495a0e !important;
+    background-color: rgb(240, 144, 154) !important;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+
+
+.logo_text {
+    font-family: 'UhBeeSe_hyun';
+    font-size: 2em;
+    color: #c9a814;
+    margin-left: 300px;
+}
+#id, #password01, #password02, #email, #name{
+    border-radius: 30px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+h2, h3{
+    font-size: 2em !important;
+    font-family: 'UhBeeSe_hyun';
+}
+
+.text1{
+    padding: 30px 150px;
+    width: 50%;
+    float: left;
+
+}
+.text2{
+    width: 50%;
+    float: left;
+    font-family: georgia;
+}
+
+
+.text3{
+    font-weight: bold;
+    font-family: georgia;
+}
+.title{
+    font-family: 'UhBeeSe_hyun';
+}
+.button{
+    position: absolute;
+    top: 15%;
+    right: 0;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border-color: #ddd;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.cursor{
+    width: 50px;
+    height: 50px;
+    /*background: url(../images/menu_hover1.png) no-repeat center center;*/
+    background-size: cover;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    left: -40px;
+    top: -40px;
+    z-index: 999999;
+}
+.bg{
+    width: 500px;
+    opacity: 0.2;
+    position: absolute;
+    bottom: 0;
+    right: -10%;
+}
+
+.daumAPI {
+    position: absolute;
+    /*top: 50%;*/
+    top: 320px;
+    /*left: 50%;*/
+    left: 300px;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.daumAPI_bt {
+    background-color: rgb(248, 211, 214);
+    border: none;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+}
+.daumAPI_bt:hover {
+    background-color: rgb(248, 211, 214, 70%);
+}
+
+/* 초기에 숨김 상태로 설정 */
+.accordion-collapse {
+    /*display: none;*/
+    /*height: 0;*/
+    max-height: 0;
+    /*visibility: hidden;*/
+    overflow: hidden;
+    /*transition: height 0.3s ease;*/
+    transition: max-height 0.3s ease;
+    /*transition: visibility 0s, max-height 0.3s ease-in-out;*/
+}
+.accordion-collapse.show {
+    /*height: auto;*/
+    max-height: 500px;
+}
+
+/* 클릭 시 나타나게 설정 */
+.accordion-collapse.active {
+    /*visibility: visible;*/
+    /*max-height: 1000px; !* 나타날 최대 높이 설정 *!*/
+    /*transition: max-height 0.3s ease-in-out;*/
+}
