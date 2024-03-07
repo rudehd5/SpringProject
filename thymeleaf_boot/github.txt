@@ -1,0 +1,71 @@
+<github>
+
+
+<git>
+https://git-scm.com/download
+
+github에서 test_240118 만듦
+
+D:\이경동\dev\work_git 폴더 만들고,
+cmd에서 경로 > 
+d:
+cd 이경동
+cd dev
+cd work_git
+gi clone https://github.com/rudehd5/test_240118.git (github에서 만든 test_240118(Repositories(저장소)) 주소)
+
+dir
+cd test_240118
+dir
+
+(test_240118 폴더 안에 aaa.txt 만듦)
+git add aaa.txt
+
+git commit -m "add text file"
+-------------------------------
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'GGG@DESKTOP-8N3GG4O.(none)')
+-------------------------------
+commit 했을 때 위 같은 오류가 뜨면 email과 name을 한번 씩 입력
+ex)git config --global user.email "rudehd5@naver.com"
+   git config --global user.name "이경동"
+(name은 혹시 몰라서 다음에 영어로 할 것)
+
+git push
+(push 후 sign~ 뜨면 sign~ 후 github에서 확인)
+===========================================================
+dir -> 현재 있는 경로안이 보임
+
+git status (상태보기)
+(bbb.txt 만듦)
+dir -> bbb.txt 만들어진게 보임
+
+git add bbb.txt
+git status
+(new file: bbb.txt)
+
+git reset bbb.txt 후
+git status
+(Untracked files: ~~ bbb.txt)
+
+(ccc.txt 만듦)
+<한번에 파일 올리는법(bbb.txt, ccc.txt 2개 한번에 github에 올리기)>
+git add .
+git status
+git commit -m "add 2 files"
+git push
+
+<github에서 만든 파일을 폴더로 들어오는법>
+위에서 했던 경로에 타고 들어온 상태에서
+git pull
